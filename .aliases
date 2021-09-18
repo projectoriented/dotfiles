@@ -1,0 +1,18 @@
+#!/usr/bin/env zsh
+
+# Easier navigation: .., 
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# List all files using long format, reverse, sort by modification time, and don't ignore dot files.
+alias l="ls -lrta"
+
+# Get week number
+alias week='date +%V'
+
+# Google Chrome
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+
+# Recursively delete `.DS_Store` and `*~` files
+alias cleanup="find $HOME -type f -name '*.DS_Store' -ls -delete 2>/dev/null; find $HOME -type f -name '*~' -ls -delete 2>/dev/null"
