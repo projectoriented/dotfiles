@@ -17,8 +17,10 @@ brew install --cask visual-studio-code
 brew install --cask pycharm
 brew install --cask messenger
 brew install --cask whatsapp
-brew install --cask franz
 brew install --cask slack
+brew install --cask discord
+brew install --cask flux
+brew install --cask firefox
 
 # Install other useful binaries.
 brew install emacs
@@ -29,4 +31,3 @@ brew install wget
 
 # Remove outdated versions from the cellar.
 brew cleanup
-

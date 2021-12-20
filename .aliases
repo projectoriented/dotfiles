@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-# Easier navigation: .., 
+# Easier navigation: ..,
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -16,3 +16,9 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 
 # Recursively delete `.DS_Store` and `*~` files
 alias cleanup="find $HOME -type f -name '*.DS_Store' -ls -delete 2>/dev/null; find $HOME -type f -name '*~' -ls -delete 2>/dev/null"
+
+# Update + upgrade brew
+if command -v brew
+then
+    alias bu="brew upgrade && brew update"
+fi
