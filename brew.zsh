@@ -31,6 +31,7 @@ brew install wget
 brew install python3
 brew install gnupg
 brew install htop
+brew install tldr
 
 # Remove outdated versions from the cellar.
 brew cleanup
