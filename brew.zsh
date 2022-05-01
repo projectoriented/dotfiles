@@ -24,6 +24,7 @@ brew install --cask firefox
 
 # Install other useful binaries.
 brew install emacs
+brew install bats
 brew install git
 brew install gh
 brew install tree

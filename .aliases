@@ -17,5 +17,5 @@ alias cleanup="find $HOME -type f -name '*.DS_Store' -ls -delete 2>/dev/null; fi
 # Update + upgrade brew
 if command -v brew
 then
-    alias bu="brew upgrade && brew update"
+    alias bu="brew upgrade && brew update && brew cleanup"
 fi
