@@ -9,30 +9,37 @@ brew update
 brew upgrade
 
 # Install casks
-brew install --cask google-chrome
+#brew install --cask google-chrome
 brew install --cask spotify
 brew install --cask bitwarden
 brew install --cask zotero
 brew install --cask visual-studio-code
 brew install --cask pycharm
-brew install --cask messenger
-brew install --cask whatsapp
-brew install --cask slack
-brew install --cask discord
-brew install --cask flux
-brew install --cask firefox
+#brew install --cask messenger
+#brew install --cask whatsapp
+#brew install --cask slack
+#brew install --cask discord
+#brew install --cask flux
+#brew install --cask firefox
 
 # Install other useful binaries.
 brew install emacs
 brew install bats
-brew install git
+#brew install git
 brew install gh
 brew install tree
 brew install wget
-brew install python3
+#brew install python3
 brew install gnupg
 brew install htop
 brew install tldr
+
+# R & RStudio
+brew install --cask r
+brew install --cask rstudio
+
+# Docker
+brew install docker
 
 # Remove outdated versions from the cellar.
 brew cleanup

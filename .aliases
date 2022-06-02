@@ -6,7 +6,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 # List all files using long format, reverse, sort by modification time, and don't ignore dot files.
-alias l="ls -lrta"
+alias l="ls -lrtah"
 
 # Get week number
 alias week='date +%V'
