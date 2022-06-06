@@ -9,7 +9,7 @@ brew update
 brew upgrade
 
 # Install casks
-#brew install --cask google-chrome
+brew install --cask google-chrome
 brew install --cask spotify
 brew install --cask bitwarden
 brew install --cask zotero
@@ -31,15 +31,12 @@ brew install tree
 brew install wget
 #brew install python3
 brew install gnupg
+brew install pinentry-mac
 brew install htop
 brew install tldr
 
 # R & RStudio
-brew install --cask r
 brew install --cask rstudio
-
-# Docker
-brew install docker
 
 # Remove outdated versions from the cellar.
 brew cleanup
