@@ -9,4 +9,4 @@ alias ....="cd ../../.."
 alias l="ls -lrta"
 
 # Enforce sudo to preserve current environment.
-alias sudo='sudo -E env "PATH=$PATH"
+alias sudo='sudo -E env "PATH=$PATH"'
