@@ -5,9 +5,8 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-# List all files using long format, reverse, sort by modification time, and don't ignore dot files.
+# List all files using long format, reverse, sort by modification time, and show hidden files.
 alias l="ls -lrta"
 
-# Get week number
-alias week='date +%V'
-
+# Enforce sudo to preserve current environment.
+alias sudo='sudo -E env "PATH=$PATH"
